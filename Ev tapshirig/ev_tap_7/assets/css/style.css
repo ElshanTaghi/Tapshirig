@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.travel{
+  height: 600px;
+  width: 100%;  
+  background: url(travelly.jpg) ;
+    background-size: cover;
+    border: 0px;
+}
+
+.container{
+    max-width: 1000px;
+  margin: auto;
+   
+}
+.container div:nth-child(1){
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+h3{
+  color: #fff;
+  padding: 200px 150px 20px 150px;
+  font-size: 52px;
+letter-spacing: 2px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+}
+.container div:nth-child(3){
+  display: flex;
+  align-items:stretch;
+  justify-content: center;
+  
+  
+  
+  }
+  
+  input{
+    width: 330px;
+height: 38px;
+background-color: #eeeeee;
+border: 0px;
+  }
+  button{
+    width: 122px;
+height: 38px;
+background-color: #fd4f32;
+border: 0px;
+  }
+
+
+  .container1{
+    max-width: 1000px;
+  margin: auto;
+  
+  }
+.destinations{
+  background-color: #eeeeee;
+  padding: 60px 0px 10px 0px;
+}
+  .boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    
+  }
+
+  .box{
+    padding: 10px;
+    
+  }
+.box1{
+  background-color: #ffffff;
+  text-align: left;
+  padding: 10px;
+}
+.sekiller{
+  width: 240px;
+  height: 200px;
+  
+}
+  p{
+    color:  #696969;;
+  }
+  .dollar{
+    
+    display: flex;
+    position: relative;
+  }
+  .price{
+    font-size: 12px;
+letter-spacing: 0px;
+color:#ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    /*transform: translate(-50%,-50%);*/
+  }
+  
+  .container2{
+    max-width: 1000px;
+  margin: auto;
+  
+  }
+
+  .info{
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    padding: 10px;
+  }
+
+  
+  .h32{
+    color: #fff;
+    padding: 75px 110px 30px 110px;
+    font-size: 52px;
+  letter-spacing: 2px;
+  color: #323232;
+  font-weight: 300;
+  font-family: "Open Sans";
+  text-align: center;
+  }
+
+  h4{
+  
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 900;
+text-align: left;
+padding: 5px 0px;
+  }
+  .byl{
+    font-size: 52px;
+letter-spacing: 2px;
+color: #323232;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: left;
+  }
+
+  .get{
+    margin: auto;
+    padding: 0px 250px 50px 250px;
+    justify-content: stretch;
+  }
+  footer{
+    background-color: #e3e3e3;
+    display: flex;
+    align-items: center;
+  }
+  nav ul {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    font: 400 16px var(--tit);
+    line-height: 18px;
+    color: #848484;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  nav .active {
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  nav ul li a:hover {
+    background-color:  #fd4f32;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  .nav{
+    justify-content: center;
+  }  
+  .end{
+    padding: 40px 0px;
+  }

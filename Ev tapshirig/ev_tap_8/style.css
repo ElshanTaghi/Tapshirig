@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.greenLine {
+  height: 10px;
+  background-color: #2ecc71;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+header {
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-body {
+  padding-left: 110px;
+  padding-top: 170px;
+  padding-bottom: 180px;
+}
+
+.header-body p {
+  max-width: 469px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Helvetica Neue";
+}
+
+.social{
+    padding-top: 25px;
+}
+
+.social a {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.5;
+  position: relative;
+}
+
+
+.social i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+    color: #fff;
+}
+
+.social a:hover{
+    background-color: #2ecc71;
+    opacity: 1;
+}
+
+.header-body {
+    background-image: url('img/hand.png');
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+}
+
+
+@media only screen and (max-width:998px){
+    .header-body {
+        background-image: none;
+  }
+
+  .header-body p{
+    color: royalblue;
+}
+}
+
+
+
+
+@media only screen and (max-width:768px){
+
+    .header-body p{
+        color: tomato;
+    }
+    .header-body {
+        padding-left: 10px;
+        text-align: center;
+      }
+
+
+      .header-body {
+          background-image: none;
+    }
+}
+
+
+
+
+
+
+.infoflex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.notifed{
+  display: flex;
+  justify-content:space-between;
+  background-color: #e3e3e3;
+}
+
+.nbox{
+  display: flex;
+  justify-content: space-between;
+  align-items:stretch;
+  padding: 50px 0px;
+}
+.nbir{
+  width: 500px;
+  height: 300px;
+  padding: 0px 20px 0px 0px;
+}
+
+footer{
+  background-color: #e3e3e3;
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  float: right;
+  padding-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font: 400 16px var(--tit);
+  line-height: 18px;
+  color: #848484;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-left: 30px;
+}
+
+nav .active {
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color:  #2ecc71;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+
+.socialp{  
+font-size: 18px;
+line-height: 30px;
+color: #848484;
+font-style: italic;
+font-family: "Helvetica Neue";
+text-align: center;
+}
+.s1{
+ text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  font-size: 18px;
+line-height: 30px;
+color: #848484;
+font-style: italic;
+font-family: "Helvetica Neue";
+text-align: center;
+max-width: 320px;
+}
+.sociall{
+align-items: center;
+}
+input{
+  width: 330px;
+height: 38px;
+background-color: #ffffff;
+border: 0px;
+}
+button{
+  width: 122px;
+height: 38px;
+background-color: #2ecc71;
+border: 0px;
+}
+
+.hget{
+  text-align: start;
+}
+.get{
+  display: flex;
+  justify-content: stretch;
+}
+
+
+
+
+.icons a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #2ecc71;
+  opacity: 1;
+  position: relative;
+}
+
+.icons{
+ text-align: center;
+}
+.infoflex{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.icons i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 36px;
+    color: #fff;
+}
+
+.socicons a {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.3;
+  position: relative;
+}
+
+
+.socicons i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+    color: #fff;
+}
+
+.socicons a:hover{
+  background-color: #2ecc71;
+  opacity: 1;
+}
+.socicons{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 60px 0px
+}
+
+.nav{
+  justify-content: center;
+}
+
